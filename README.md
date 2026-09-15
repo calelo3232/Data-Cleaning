@@ -28,3 +28,10 @@ Or open directly in [Google Colab](https://colab.research.google.com/github/cale
 
 - Senator-to-party mapping is a hardcoded lookup built from the senators present in this dataset (`senators_party` in the notebook); `load_and_clean_data()` warns if it encounters a name that isn't in the mapping rather than silently dropping it.
 - The seasonal decomposition and ARIMA cells expect enough daily-resolution history to detect a yearly cycle (roughly two years of data); they won't run meaningfully on a small or sparse subset of the data.
+
+## Contributors
+
+- Caleb Meyer
+- Max Christopherson
+- Jacob Brueck
+- Brian James
